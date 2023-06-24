@@ -1,1 +1,21 @@
-#print TODO: create your model in this file
+#ifmissing "123.glm"
+#model get IEEE/123
+#endif
+#include "123.glm"
+
+// Task 1 - Add a diesel generation to Node 8 (1 cyl, 2 stroke, speed 360 rpm, torque 680 N)
+module generators;
+object diesel_dg 
+{
+    parent node_8;
+    Gen_mode CONSTANTPQ;
+    Gen_status ONLINE;
+    Gen_type SYNCHRONOUS;
+    pf 1.0;
+    cylinders 1;
+    stroke 2;
+    speed 360 1/min;
+    torque 680 N;
+}
+
+#output "IEEE-123-voltage-profile.png" -t profile -l 10
