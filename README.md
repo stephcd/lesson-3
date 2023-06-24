@@ -10,18 +10,20 @@ The goal this lesson is to familiarize you with the various ways of modeling gen
 
 ## Generators
 
-Loads can be connected to either single phase or 3-phase nodes on a network.
+To define generators, you must include the `generators` module using the `module generators;` GLM directive.
+
+Generators can be connected to any single phase or 3-phase nodes on a network. 
 
 ## Tasks
 
 The following tasks are illustrated in [`main.glm`](main.glm):
 
-1. Add a 1 cylinder, 2 stroke, 3-phase diesel generator running at 360 rpm, with 680 N of torque to `node_8`.
+1. Load the `generators` module (see [`main.glm@7`](main.glm#L7)).
+1. Add a 1 cylinder, 2 stroke, 3-phase diesel generator running at 360 rpm, with 680 N of torque to `node_8` (see [`main.glm@8`](main.glm#L8-L19)).
 
 # Exercises
 
-1. Change the diesel generator to a single phase (A) with the same power as `load_1`. (Hint: $power = 2 \pi frac{rpm \times torque}{60 \times stroke \times cylinders}$)
-2. 
+1. Change the diesel generator to a single phase (A) connected to and with the same power as [`load_1`](https://github.com/arras-energy/gridlabd-models/blob/master/gridlabd-4/IEEE/123.glm#L411-L418). (Hint: $power = \frac{2 \pi}{60} \frac{rpm \times torque}{stroke \times cylinders}$).
 
 # More Information
 
