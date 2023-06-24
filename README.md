@@ -23,7 +23,7 @@ The following tasks are illustrated in [`main.glm`](main.glm):
 
 # Exercises
 
-1. Change the diesel generator to a single phase (A) connected to and with the same power as [`load_1`](https://github.com/arras-energy/gridlabd-models/blob/master/gridlabd-4/IEEE/123.glm#L411-L418). (Hint: $power = \frac{2 \pi}{60} \frac{rpm \times torque}{stroke \times cylinders}$).
+1. Change the diesel generator to a single phase (A) connected to and with the same power as [`load_9`](https://github.com/arras-energy/gridlabd-models/blob/master/gridlabd-4/IEEE/123.glm#L465-L472). (Hint: $power = \frac{2 \pi}{60} \frac{rpm \times torque}{stroke \times cylinders}$).
 
 # More Information
 
