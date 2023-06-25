@@ -70,9 +70,9 @@ object windturb_dg
     parent meter_28;
     phases ABCN;
     Gen_status ONLINE;
-    Gen_type SYNCHRONOUS;
+    Gen_type INDUCTION;
     Gen_mode CONSTANTP;
-    Turbine_Model GE_25MW;
+    Turbine_Model GENERIC_IND_SMALL;
 }
 
 
