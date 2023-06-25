@@ -47,4 +47,4 @@ The following tasks are illustrated in [`main.glm`](main.glm):
 
 # Next Lesson
 
-* [Lesson 4 - Generators](../../../lesson-4)
+* [Lesson 4 - Energy Storage](../../../lesson-4)
