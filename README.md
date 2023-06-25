@@ -4,9 +4,9 @@
 
 The goal this lesson is to familiarize you with the various ways of modeling generators in GridLAB-D. The specific learning objectives are the following
 
-1. How to define a diesel generator.
-2. How to define a solar generator.
-3. How to define a wind turbine.
+1. How to connect a diesel generator.
+2. How to connect a solar generator.
+3. How to connect a wind turbine.
 
 ## Generators
 
