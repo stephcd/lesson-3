@@ -57,7 +57,7 @@ object solar
     SOLAR_POWER_MODEL FLATPLATE;
 } 
 
-// Task 3 - Add 25 MW GW turbine on load 28
+// Task 3 - Add small wind turbine on load 28
 object meter 
 {
     name meter_28;
