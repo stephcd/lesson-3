@@ -19,7 +19,7 @@ Generators can be connected to any single phase or 3-phase nodes on a network.
 The following tasks are illustrated in [`main.glm`](main.glm):
 
 1. Load the `generators` module (see [`main.glm@7`](main.glm#L7)).
-1. Add a 1 cylinder, 2 stroke, 3-phase diesel generator running at 360 rpm, with 680 N of torque to `node_8` (see [`main.glm@8`](main.glm#L8-L19)).
+2. Add a 1 cylinder, 2 stroke, 3-phase diesel generator running at 360 rpm with 680 N.m of torque to `node_8` (see [`main.glm@8`](main.glm#L8-L19)).
 
 # Exercises
 
