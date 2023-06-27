@@ -16,8 +16,9 @@ object diesel_dg
     stroke 2;
     speed 360 1/min;
     torque 680;
-    TotalRealPow [W];
-    TotalReacPow [VAr]; 
+    TotalOutputPow "VA";
+    TotalRealPow "W";
+    TotalReacPow "VAr";
 }
 
 // Task 2 - Add 4kW 100 sf solar panel on load 10 (tilt 45, efficiency 0.135, south facing, fixed) 
