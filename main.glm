@@ -48,7 +48,7 @@ object meter
             name solar_10;
             parent inv_10;
             rated_power 4.0 kVA;
-            area 100 sf;
+            area 1000 sf;
             tilt_angle 45.0 deg;
             efficiency 13.5%;
             orientation_azimuth 180;
