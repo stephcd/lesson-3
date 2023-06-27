@@ -40,9 +40,9 @@ object meter
     nominal_voltage 2401.7711;
     object inverter 
     {
-        name inv_10;
+        name inv_10; // DC = AC/sqrt(2)
         phases AN;
-        rated_power 25 kVA;
+        rated_power 16423 kVA;
         object solar 
         {
             name solar_10;
