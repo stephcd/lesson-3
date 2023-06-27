@@ -42,12 +42,13 @@ object meter
     {
         name inv_10; // DC = AC/sqrt(2)
         phases AN;
-        rated_power 16423 kVA;
+        rated_power 17107 kVA;
         object solar 
         {
             name solar_10;
             parent inv_10;
-            rated_power 23225 kVA; //6.0-6.5 solar irradiance * 92.9 m^2/ft^2 * 1000 ft^2/24 hr, power factor = 1?
+            rated_power 24193.5 kVA; //6.0-6.5 (6.25 avg) solar irradiance * 92.9 m^2/ft^2 * 1000 ft^2/24 hr, power factor = 1?
+            //rating = 1000 kw/m^2 * areas * efficiency
             area 1000 sf;
             tilt_angle 45.0 deg;
             efficiency 13.5%;
