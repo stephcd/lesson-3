@@ -8,9 +8,10 @@ module generators;
 object diesel_dg 
 {
     parent node_8;
-    Gen_mode CONSTANTP;
+    Gen_mode CONSTANTPQ;
     Gen_status ONLINE;
     Gen_type SYNCHRONOUS;
+    set phase A;
     pf 1.0;
     cylinders 1;
     stroke 2;
