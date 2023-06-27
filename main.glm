@@ -11,7 +11,7 @@ object diesel_dg
     Gen_mode CONSTANTPQ;
     Gen_status ONLINE;
     Gen_type SYNCHRONOUS;
-    set phase A;
+    phase A;
     pf 1.0;
     cylinders 1;
     stroke 2;
