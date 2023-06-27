@@ -16,7 +16,6 @@ object diesel_dg
     stroke 2;
     speed 360 1/min;
     torque 680;
-    TotalOutputPow "VA";
     TotalRealPow "W";
     TotalReacPow "VAr";
 }
